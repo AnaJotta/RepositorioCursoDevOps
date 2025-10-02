@@ -1,17 +1,19 @@
 # RespositorioCursodevops
-Exercises
-#DevOps-Foundations This repository contains hands-on exercise for the DevOps Foundations course
-git add Readme.md
-git commit -m "added a brief description to README.md"
-git push -u origin add-README
-git pull origin main
-git checkout main
-git merge add-README
-git push
-git branch -d add-README
-git push origin --delete add.README
 
-# RESUMEN PERSONALIZADO PASO A PASO CON COMANDOS Y CONCEPTOS CLAVES
+
+### DevOps-Foundations This repository contains hands-on exercise for the DevOps Foundations course
+## Exercises: 
+- git add Readme.md
+- git commit -m "added a brief description to README.md"
+- git push -u origin add-README
+- git pull origin main
+- git checkout main
+- git merge add-README
+- git push
+- git branch -d add-README
+- git push origin --delete add.README
+
+## RESUMEN PERSONALIZADO PASO A PASO CON COMANDOS Y CONCEPTOS CLAVES
 CI/CD + YAML
 
 ## 1. CI – Integración Continua
