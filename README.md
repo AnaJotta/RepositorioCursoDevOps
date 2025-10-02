@@ -174,3 +174,65 @@ Docker es una plataforma que permite crear, ejecutar y gestionar contenedores: e
 - ✅ Consistencia: elimina el problema de “funciona en mi máquina”.
 
 - 📊 Escalabilidad: se pueden crear o eliminar contenedores según la demanda de tráfico.
+
+
+---
+
+
+## Utilidad de GitHub Actions y CI/CD
+
+### 1️⃣ GitHub Actions y CI/CD
+
+CI/CD significa Integración Continua / Entrega Continua.
+
+Integración Continua (CI): cada vez que un desarrollador hace un cambio en el código, se ejecutan automáticamente pruebas y revisiones para asegurarse de que todo funcione correctamente.
+
+Entrega Continua (CD): permite desplegar automáticamente el código a un entorno de pruebas o producción una vez que pasa las pruebas.
+
+GitHub Actions es la herramienta que te permite automatizar estos procesos dentro de GitHub.
+
+
+
+### 2️⃣ Tu workflow
+
+- El workflow que configuraste hace varias cosas:
+
+- Checkout del código
+
+- Trae el código de tu repositorio para que GitHub Actions pueda trabajarlo.
+
+- Set up Python 3.10
+
+- Instala la versión de Python que necesita tu proyecto.
+
+- Instalar dependencias
+
+- Instala librerías que tu proyecto necesita (flake8, pytest, etc.).
+
+- Lint con flake8
+
+- Revisa errores de sintaxis y estilo de tu código.
+
+- Ayuda a mantener el código limpio y uniforme.
+
+- Tests con pytest
+
+- Ejecuta pruebas automáticas para asegurar que tu código funciona como se espera.
+
+- Si algo falla, GitHub Actions detiene el proceso y te avisa, evitando errores en producción.
+
+- Ejecutar tu script (app.py) te permite ver la salida de tu aplicación dentro del workflow, asegurando que se ejecute correctamente en un entorno limpio y controlado.
+
+  
+
+### 3️⃣ Por qué es útil
+
+- Automatización: no tienes que probar o desplegar manualmente tu aplicación cada vez que haces un cambio.
+
+- Confianza: si tu pipeline pasa todos los pasos, sabes que tu código es seguro y funciona en cualquier entorno.
+
+- Portabilidad: tu aplicación funciona igual en tu computadora, en GitHub Actions y en cualquier servidor.
+
+- Preparación profesional: estas son las prácticas que usan empresas reales para desarrollar software de forma confiable y rápida.
+
+
