@@ -11,10 +11,10 @@ git push
 git branch -d add-README
 git push origin --delete add.README
 
-#RESUMEN PERSONALIZADO PASO A PASO CON COMANDOS Y CONCEPTOS CLAVES
+# RESUMEN PERSONALIZADO PASO A PASO CON COMANDOS Y CONCEPTOS CLAVES
 CI/CD + YAML
-CI/CD y YAML – Guía rápida
-##1. CI – Integración Continua
+
+## 1. CI – Integración Continua
 
 Qué es: Automatiza la integración de cambios de código en un repositorio compartido.
 
@@ -30,7 +30,9 @@ Retroalimentación inmediata al equipo.
 
 Beneficio: Problemas se resuelven antes de que se conviertan en errores mayores.
 
-##2. CD – Despliegue/Entrega Continua
+---
+
+## 2. CD – Despliegue/Entrega Continua
 
 Entrega continua: Código listo para despliegue, puede requerir aprobación manual.
 
@@ -46,7 +48,9 @@ Reducción de errores y riesgos.
 
 Permite liberar actualizaciones pequeñas y frecuentes.
 
-##3. Herramientas comunes CI/CD
+---
+
+## 3. Herramientas comunes CI/CD
 Herramienta	Características principales
 Jenkins	Open source, flexible, integra casi cualquier herramienta, requiere setup manual.
 GitHub Actions	Integrado en GitHub, fácil de usar, mínima configuración, preintegraciones disponibles.
@@ -56,7 +60,9 @@ Elección depende del ecosistema, experiencia del equipo y necesidades del proye
 
 Muchas herramientas tienen versiones gratuitas o open source.
 
-##4. Beneficios de CI/CD
+---
+
+## 4. Beneficios de CI/CD
 
 Automatiza pruebas y despliegues.
 
@@ -70,7 +76,9 @@ Solo el código probado llega a producción.
 
 Integración con monitoreo para alertas tempranas.
 
-##5. YAML
+---
+
+## 5. YAML
 
 Qué es: Formato simple y legible para archivos de configuración.
 
@@ -86,7 +94,9 @@ Anidamiento: mediante indentación con espacios
 
 Ventaja: Intuitivo para desarrolladores y no desarrolladores.
 
-##6. GitHub Actions + YAML
+---
+
+## 6. GitHub Actions + YAML
 
 Workflows: Archivos YAML que automatizan tareas (build, test, deploy).
 
