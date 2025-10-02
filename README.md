@@ -119,3 +119,8 @@ jobs:
       - uses: actions/checkout@v2
       - name: Run tests
         run: npm test
+
+
+## Diagrama de flujo
+
+![Diagrama de flujo](https://github.com/AnaJotta/RespositorioCursodevops/blob/main/Diagrama%20de%20flujo.png?raw=true)
