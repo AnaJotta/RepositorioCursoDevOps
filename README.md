@@ -124,3 +124,53 @@ jobs:
 ## Diagrama de flujo
 
 ![Diagrama de flujo](https://github.com/AnaJotta/RespositorioCursodevops/blob/main/Diagrama%20de%20flujo.png?raw=true)
+
+
+---
+
+# Introducción a Docker
+
+Docker es una plataforma que permite crear, ejecutar y gestionar contenedores: entornos ligeros y autónomos que incluyen una aplicación y todas sus dependencias. Esto garantiza que la aplicación funcione igual en cualquier entorno, desde tu computadora hasta servidores en la nube.
+
+## 🧩 Conceptos clave
+1️⃣ Imágenes
+
+📦 Paquetes de solo lectura que contienen todo lo necesario para ejecutar una aplicación: código, librerías y dependencias.
+
+📝 Actúan como plantillas para crear contenedores.
+
+🔹 Ejemplo: una imagen con una aplicación en Python y todas sus librerías.
+
+2️⃣ Contenedores
+
+⚙️ Instancias de imágenes que se ejecutan como procesos aislados.
+
+🔄 Son dinámicos: se pueden iniciar, detener y modificar durante su ciclo de vida.
+
+📈 Permiten escalabilidad y consistencia.
+
+3️⃣ Dockerfile
+
+📝 Archivo de texto con instrucciones para construir una imagen.
+
+## 🔧 Define pasos como instalar librerías, copiar código y configurar el entorno.
+
+🖥 Comandos básicos
+
+- docker build – Crea una imagen desde un Dockerfile.
+
+- docker run – Inicia un contenedor desde una imagen.
+
+- docker stop – Detiene un contenedor en ejecución.
+
+- docker ps – Lista todos los contenedores que están corriendo.
+
+## 🌟 Ventajas de Docker
+
+- 🌍 Portabilidad: funciona igual en diferentes entornos.
+
+- ⚡ Ligero y eficiente: consume menos recursos que una máquina virtual y arranca rápidamente.
+
+- ✅ Consistencia: elimina el problema de “funciona en mi máquina”.
+
+- 📊 Escalabilidad: se pueden crear o eliminar contenedores según la demanda de tráfico.
