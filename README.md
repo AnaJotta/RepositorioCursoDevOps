@@ -236,3 +236,81 @@ GitHub Actions es la herramienta que te permite automatizar estos procesos dentr
 - Preparación profesional: estas son las prácticas que usan empresas reales para desarrollar software de forma confiable y rápida.
 
 
+---
+
+
+## ⚙️ Gestión de Configuración con Ansible
+
+La gestión de configuración es una práctica clave en DevOps para automatizar y estandarizar la configuración, despliegue y mantenimiento de sistemas de TI.
+
+---
+
+## 🔑 ¿Qué es la gestión de configuración?
+
+Administra de forma sistemática servidores, redes, software, etc.
+
+Asegura consistencia y confiabilidad en todos los entornos.
+
+Evita problemas de:
+
+❌ Errores humanos
+
+❌ Configuraciones inconsistentes
+
+❌ Vulnerabilidades de seguridad
+
+---
+
+## 🛠️ ¿Cómo ayudan las herramientas?
+
+🤖 Automatizan tareas repetitivas (instalar software, configurar servidores, aplicar updates).
+
+📦 Definen configuraciones como código → Infrastructure as Code (IaC).
+
+🔄 Hacen los despliegues reproducibles y permiten rollback si algo falla.
+
+🐧 Ansible: herramienta destacada
+
+✨ Popular por su simplicidad y efectividad.
+
+🚫 No necesita instalar agentes en los sistemas destino.
+
+🔐 Se comunica vía SSH (Linux) o WinRM (Windows) --> Funciona sobre HTTP/HTTPS y está basado en WS-Management (un estándar de Microsoft).
+
+📝 Usa YAML (legible por humanos) para definir configuraciones y tareas.
+
+---
+
+## 📂 Componentes clave
+
+Playbooks → Archivos YAML que definen tareas (ej: instalar software).
+
+Módulos → Funcionalidades preconstruidas (ej: manejo de archivos, instalación de paquetes).
+
+Inventario → Lista de sistemas destino (IP o hostnames).
+
+---
+
+## 🔄 Flujo de trabajo con Ansible
+
+✍️ Escribes un playbook con la configuración deseada.
+
+🖥️ Defines los sistemas en el inventario.
+
+▶️ Ejecutas el playbook y Ansible aplica los cambios automáticamente.
+
+---
+
+## 🌟 Ventajas de usar Ansible
+
+✅ Consistencia: todos los sistemas configurados igual, sin "drift".
+
+⚡ Eficiencia: automatiza tareas y escala a cientos/miles de servidores.
+
+🛡️ Menos errores: reduce fallos humanos y mejora la confiabilidad.
+
+🤝 Colaboración: playbooks en Git, fáciles de versionar y compartir.
+
+🔄 Recuperación rápida: despliega un sistema fallido a su estado deseado en minutos.
+
+
