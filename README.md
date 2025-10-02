@@ -314,3 +314,88 @@ Inventario → Lista de sistemas destino (IP o hostnames).
 🔄 Recuperación rápida: despliega un sistema fallido a su estado deseado en minutos.
 
 
+---
+
+
+# 📊 Monitorización y Logging en DevOps
+
+La monitorización y el logging son pilares fundamentales en DevOps.
+Permiten asegurar que aplicaciones e infraestructura funcionen de forma óptima, detectar problemas antes de que afecten a los usuarios y mantener la calidad del sistema.
+
+---
+
+## 🔎 ¿Por qué es importante la monitorización?
+
+✅ Disponibilidad: garantiza que los sistemas críticos sigan operativos (menos downtime).
+
+⚡ Optimización de rendimiento: rastrea CPU, memoria y red para detectar cuellos de botella y escalar recursos.
+
+🚨 Detección temprana de problemas: genera alertas ante anomalías o fallas potenciales antes de que impacten al usuario.
+
+---
+
+## 🗂️ Tipos de monitorización
+
+🖥️ Infraestructura: servidores, redes, hardware (CPU, disco, latencia).
+
+📦 Aplicaciones: métricas propias de la app (tiempo de respuesta, errores, transacciones).
+
+👩‍💻 Experiencia del usuario: asegura buena UX (tiempo de carga, fallos en compras, etc.).
+
+💡 Ejemplo: en un e-commerce durante una oferta, la monitorización evita que el sitio colapse por exceso de tráfico.
+
+---
+
+## 🛠️ Herramientas de monitorización
+
+### 🔹 Prometheus
+
+📡 Recolecta métricas en tiempo real (CPU, memoria, tiempos de respuesta).
+
+🔎 Lenguaje de consultas flexible (PromQL).
+
+🔍 Descubre automáticamente servidores y contenedores.
+
+🤝 Fácil de integrar con entornos DevOps modernos.
+
+
+
+### 🔹 Grafana
+
+📊 Dashboards personalizables para visualizar métricas.
+
+🚨 Alertas configurables según umbrales definidos.
+
+🔗 Compatible con múltiples fuentes (Prometheus, Elasticsearch, Cloud).
+
+🎛️ Interfaz amigable, ideal para crear paneles interactivos.
+
+📜 Logging (registros de eventos)
+
+---
+
+## Mientras la monitorización mide métricas, el logging captura eventos y errores del sistema para analizar y depurar problemas.
+
+🔹 ELK Stack (Elasticsearch + Logstash + Kibana)
+
+🔎 Elasticsearch: indexa logs para búsquedas rápidas.
+
+🔄 Logstash: procesa y transforma logs antes de almacenarlos.
+
+📈 Kibana: visualiza y permite analizar logs fácilmente.
+
+(Otras opciones: Fluentd, Splunk).
+
+--- 
+
+## ✅ Beneficios del Logging
+
+🔍 Causa raíz: identifica el origen exacto de un problema.
+
+🛡️ Auditoría y cumplimiento: mantiene registro para seguridad y normativas.
+
+🐞 Depuración: ayuda a desarrolladores a resolver bugs en desarrollo y producción.
+
+💡 Ejemplo: en una caída de servidor, los logs pueden mostrar que una consulta mal diseñada en la base de datos causó la falla.
+
+
